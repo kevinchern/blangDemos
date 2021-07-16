@@ -18,3 +18,5 @@ transfection,ODE modelling mRNA transfection,ode.MRNATransfection,--model.data d
 PhylogeneticTreeLarger,Bayesian phylogenetic inference,demos.PhylogeneticTree,--model.observations.file data/FES_8.g.fasta --model.observations.encoding DNA
 chromobreak,Single cell copy number inference,chromobreak.SingleCell,--model.data.source data/chromo/gc.csv --model.data.gcContents.name value --model.data.readCounts.name value --model.data.readCounts.dataSource data/chromo/7.csv --postProcessor chromobreak.ChromoPostProcessor --model.configs.annealingStrategy Exponentiation --model.configs.annealingStrategy.thinning 1
 toymix,Toy mixture model,demos.ToyMix,
+simple-mix-raw,Mixture of two normal distributions (no obs input),mix.SimpleMixture,
+Wright-Fisher-raw,Bridge simulation of a Wright-Fisher SDE diffusion,blang.validation.internals.fixtures.Diffusion,
