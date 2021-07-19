@@ -7,4 +7,3 @@ bin/
 build
 results
 .~lock.models.csv#
-.gitignore
