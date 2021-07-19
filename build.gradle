@@ -12,7 +12,7 @@ targetCompatibility = '1.8'
 def blangVersion = '4.0.1' 
 dependencies {
   xtextLanguages "com.github.UBC-Stat-ML.blangDSL:ca.ubc.stat.blang:${blangVersion}"
-  compile 'com.github.kevinchern:blangSDK:c98874dd49a131dc506fdf027e90cf531a84d7b2'
+  compile 'com.github.kevinchern:blangSDK:c66c9422fc2ec441235a54373f75dcd05d89e017'
   compile group: 'com.github.UBC-Stat-ML', name: 'nowellpack', version: '0.0.0'
   compile group: 'com.github.UBC-Stat-ML', name: 'conifer', version: '2.1.3'
 }
